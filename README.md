@@ -4,13 +4,13 @@ This project demonstrates an end-to-end data engineering pipeline on Azure, focu
 
 ---
 
-## 🧠 Business Objective
+## Business Objective
 
 To understand prescribing trends, drug usage patterns, and regional cost distribution of NHS medicines across England using real public health data. The project provides a reproducible framework for handling large-scale healthcare data using modern Azure tools.
 
 ---
 
-## 💾 Data Sources
+## Data Sources
 
 - NHSBSA Open Data Portal:  
   `https://opendata.nhsbsa.net/`  
@@ -19,7 +19,7 @@ To understand prescribing trends, drug usage patterns, and regional cost distrib
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 <img width="983" height="327" alt="image" src="https://github.com/user-attachments/assets/c6a381c9-5f72-479b-bf60-3021b5d52900" />
 
@@ -67,7 +67,7 @@ Final cleaned data was saved into a **clean zone** in ADLS as Parquet files.
 
 The clean data was connected to Power BI via **Azure Data Lake**.
 
-### 📊 Key KPIs:
+### Key KPIs:
 
 - Total Items Prescribed
 - Total Net Ingredient Cost (NIC)
@@ -76,7 +76,7 @@ The clean data was connected to Power BI via **Azure Data Lake**.
 - Most Prescribed Chemicals
 - Cost by Region, Practice, ICB
 
-### 📈 Visualizations:
+### Visualizations:
 
 - Line charts for prescribing trends over time
 - Bar charts for Top 10 BNF Substances by cost
@@ -86,7 +86,7 @@ The clean data was connected to Power BI via **Azure Data Lake**.
 
 ---
 
-## 🧪 Final Dashboard Highlights
+## Final Dashboard Highlights
 
 - Prescribing patterns from 2020 to 2024
 - Dynamic insights by region, chemical, or time
@@ -94,7 +94,7 @@ The clean data was connected to Power BI via **Azure Data Lake**.
 
 ---
 
-## 🧩 Challenges & Notes
+## Challenges & Notes
 
 <img width="1332" height="533" alt="image" src="https://github.com/user-attachments/assets/bcdb06ae-3266-4cea-9d41-ac17be9ec977" />
 
