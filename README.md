@@ -21,6 +21,8 @@ To understand prescribing trends, drug usage patterns, and regional cost distrib
 
 ## 🚀 Tech Stack
 
+<img width="983" height="327" alt="image" src="https://github.com/user-attachments/assets/c6a381c9-5f72-479b-bf60-3021b5d52900" />
+
 | Tool | Purpose |
 |------|---------|
 | Azure Data Factory | Automated REST API ingestion to ADLS |
@@ -45,6 +47,8 @@ Using **Azure Data Factory**, we performed the following:
 
 ## 2️⃣ Data Cleaning (Synapse Spark)
 
+<img width="1334" height="690" alt="Screenshot 2025-07-15 105436" src="https://github.com/user-attachments/assets/b47b7a5c-6604-459a-bfc2-1e293d63983a" />
+
 After ingestion, the data was cleaned in **Synapse Spark Notebooks**:
 
 - Raw CSVs contained all data in a single column
@@ -57,6 +61,9 @@ Final cleaned data was saved into a **clean zone** in ADLS as Parquet files.
 ---
 
 ## 3️⃣ Data Modeling & Analytics (Power BI)
+
+<img width="992" height="568" alt="image" src="https://github.com/user-attachments/assets/de15a8b6-5727-4b5c-a092-ba18e84fd283" />
+
 
 The clean data was connected to Power BI via **Azure Data Lake**.
 
@@ -88,6 +95,8 @@ The clean data was connected to Power BI via **Azure Data Lake**.
 ---
 
 ## 🧩 Challenges & Notes
+
+<img width="1332" height="533" alt="image" src="https://github.com/user-attachments/assets/bcdb06ae-3266-4cea-9d41-ac17be9ec977" />
 
 - NHS API returned raw data in one-column CSVs — required parsing in Spark
 - Some columns had inconsistent types (e.g., cost as string)
