@@ -103,6 +103,3 @@ This project shows how to build a **real-world, scalable healthcare data pipelin
 - Spark-based cleaning in Synapse
 - Interactive BI via Power BI and ADLS
 
----
-
-## 📁 Folder Structure (Recommended)
